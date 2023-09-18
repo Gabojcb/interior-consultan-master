@@ -5,6 +5,7 @@ import { Main } from "project/main";
 import { Footer } from "project/footer";
 export /*bundle*/
 function Page(): JSX.Element {
+  //code
   const TITLE__HEADER = "Modern interior";
   return (
     <div className="page__container">
