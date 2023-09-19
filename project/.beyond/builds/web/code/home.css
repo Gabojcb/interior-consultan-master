@@ -1,0 +1,11 @@
+.page__container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100%;
+  gap: 30px;
+  /* width: 100%; */
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNhc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtBQUNBIiwiZmlsZSI6IiJ9 */

@@ -1,0 +1,17 @@
+{
+  "declarations": {
+    "environment": "production",
+    "base": "E:\\workspace\\interior-consultant-master\\project\\.beyond\\builds\\declarations",
+    "archive": "E:\\workspace\\interior-consultant-master\\project\\.beyond\\builds\\declarations\\build.zip",
+    "finalised": true,
+    "time": 1695139314507
+  },
+  "web": {
+    "platform": "web",
+    "environment": "development",
+    "base": "E:\\workspace\\interior-consultant-master\\project\\.beyond\\builds\\web",
+    "archive": "E:\\workspace\\interior-consultant-master\\project\\.beyond\\builds\\web\\build.zip",
+    "finalised": true,
+    "time": 1695139341036
+  }
+}

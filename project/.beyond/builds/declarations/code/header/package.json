@@ -1,0 +1,12 @@
+{
+  "types": "./header.d.ts",
+  "amd": "./header.amd.js",
+  "sjs": "./header.sjs.js",
+  "browser": "./header.browser.mjs",
+  "module": "./header.browser.mjs",
+  "node": {
+    "require": "./header.cjs.js",
+    "import": "./header.mjs"
+  },
+  "css": "./header.css"
+}

@@ -1,0 +1,12 @@
+{
+  "types": "./menu.d.ts",
+  "amd": "./menu.amd.js",
+  "sjs": "./menu.sjs.js",
+  "browser": "./menu.browser.mjs",
+  "module": "./menu.browser.mjs",
+  "node": {
+    "require": "./menu.cjs.js",
+    "import": "./menu.mjs"
+  },
+  "css": "./menu.css"
+}
