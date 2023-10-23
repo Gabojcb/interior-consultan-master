@@ -1,9 +1,8 @@
 .drop-dowm {
-    position: absolute;
-    transition: all 300ms;
-    transform: translateY(-90px);
-    transform: translateX(60px);
-    width: 100%;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -11,6 +10,7 @@
     justify-content: center;
     z-index: 40;
     background-color: var(--background);
+    transition: all 300ms;
 
     .content-icon {
         position: absolute;
@@ -36,17 +36,17 @@
 }
 
 .drop-dowm-open {
-    transform: translateX(-312px);
     position: absolute;
-    transition: all 300ms;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 40;
+    transition: all 300ms;
     background-color: var(--background);
+    z-index: 40;
+    right: 0;
 
     .content-icon {
             position: absolute;

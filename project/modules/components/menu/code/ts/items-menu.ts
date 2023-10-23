@@ -1,0 +1,1 @@
+export   const menuItems = ["Menu", "Collection", "About", "Contact"];

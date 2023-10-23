@@ -2,7 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
+    bottom: 0;
+    margin-top: 7rem;
     .footer__p {
         color: #A9A9A9;
         text-align: center;
@@ -21,5 +23,11 @@
             line-height: normal;
             text-decoration-line: underline;
         }
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .container__footer {
+        margin-top: 1rem;
     }
 }

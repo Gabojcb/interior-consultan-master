@@ -1,3 +1,4 @@
 [
-  "/project/package.json"
+  "/project/package.json",
+  "../baleares/public/pragmate-ui/project/package.json"
 ]
