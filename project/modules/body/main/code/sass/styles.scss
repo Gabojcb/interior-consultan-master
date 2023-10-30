@@ -75,3 +75,10 @@
         height: 27rem;
     }
 }
+
+@media screen and (max-width: 435px) {
+    .main__section-card {
+        min-width: 8rem !important;
+        width: 16rem;
+    }
+}
