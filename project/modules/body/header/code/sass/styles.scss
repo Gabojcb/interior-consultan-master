@@ -37,3 +37,31 @@
         }
     }
 }
+
+@media screen and (min-width: 721px) {
+    .container__header {
+        align-items: flex-start;
+        gap: 20px;
+        .header__h1 {
+            text-align: left;
+            color: #FFF;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .header__details {
+            color: #FFF;
+            text-align: left;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .content-link {
+            text-align: left;
+        }
+    }
+}

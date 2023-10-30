@@ -13,16 +13,44 @@
 }
 
 @media screen and (min-width: 721px) {
-    .content-grid {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+
+    .page__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 2fr 0.2fr;
+        gap: 5rem 0rem;
+        grid-template-areas:
+            "Header"
+            "Main"
+            "Footer";
+
+
+
+        padding: 0rem 3.5rem;
+        justify-content: space-around;
+        .container__nav {
+            grid: Header;
+        }
+        .content-grid {
+            grid-area: Main;
+            display: grid;
+            grid-template-columns: 40% 60%;
+            justify-content: center;
+            width: 80%;
+            justify-self: center;
+        }
+        .container__footer {
+            grid-area: Footer;
+        }
     }
 
     .container__main {
-        height: 36rem;
+        align-self: flex-end;
+        justify-self: center;
+        height: 100%;
+        max-height: 36.658rem; 
         width: 100%;
+        max-width: 51.32rem;
 
         .main__section-card {
             top: 480px;
@@ -30,9 +58,9 @@
     }
 
     .container__header {
-        width: 60%;
+        width: 100%;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .container__footer {

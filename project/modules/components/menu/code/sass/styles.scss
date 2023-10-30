@@ -69,6 +69,29 @@
                 font-weight: 700;
                 line-height: normal;
                 list-style: none;
+
+                cursor: pointer;
+                
+                &::after {
+                    content: '';
+                    width: 0%;
+                    height: 4px;
+                    background-color: #FFF;
+                    position: absolute;
+                    bottom: -30%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    transition: 0.8s all;
+                }
+            
+                &:hover::after {
+                    width: 100%;
+                }
+            
+                a {
+                    text-decoration: none;
+                    color: #FFF;
+                }
             }
         }
 }
