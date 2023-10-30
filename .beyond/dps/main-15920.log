@@ -1,0 +1,7 @@
+Dynamic processors logs:
+
+"processors-registry" took 4437 ms. to process
+[31mDynamic processor "[1mutils.configurable-finder[22m" is taking more than expected.[39m
+[1m	Waiting for:[22m
+		* utils.finder: not initialised
+
